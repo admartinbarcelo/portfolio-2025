@@ -29,6 +29,7 @@ const portfolioProjects = [
     year: "2023",
     title: "Hands Up!",
     results: [
+      { title: "Hackshow Winner Project 🏆" },
       { title: "Led the frontend with React" },
       { title: "Optimized load performance" },
       { title: "Integrated frontend with backend in Node.js" },
