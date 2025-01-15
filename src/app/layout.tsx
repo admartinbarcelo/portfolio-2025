@@ -24,7 +24,7 @@ export const metadata = {
         url: "https://your-portfolio-url.com/og-image.jpg",
         width: 800,
         height: 600,
-        alt: "Adrian Martin Barcelo - Portfolio",
+        alt: "Adrian Martin Barcelo - Frontend Web Developer Portfolio",
       },
     ],
   },
