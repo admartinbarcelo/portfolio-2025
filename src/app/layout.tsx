@@ -10,13 +10,13 @@ const calistoga = Calistoga({
 });
 
 export const metadata = {
-  title: "Adrian Martin Barcelo - Portfolio",
-  description: "Welcome to my personal portfolio. Explore my projects, skills, and experience.",
-  keywords: "Adrian Martin Barcelo, portfolio, web developer, projects, skills, experience",
+  title: "Adrian Martin Barcelo | Web Developer Specializing in Frontend & User Experiences",
+  description: "Explore the portfolio of Adrian Martin Barcelo, a web developer specializing in creating high-performing, user-centric web applications using modern technologies like React and TypeScript.",
+  keywords: "Adrian Martin Barcelo, frontend developer, React, TypeScript, UI/UX design, portfolio, web development, JavaScript, Tailwind CSS, Docker",
   authors: [{ name: "Adrian Martin Barcelo" }],
   openGraph: {
-    title: "Adrian Martin Barcelo - Portfolio",
-    description: "Welcome to my personal portfolio. Explore my projects, skills, and experience.",
+    title: "Adrian Martin Barcelo | Web Developer Specializing in Frontend & User Experiences",
+    description: "Explore the portfolio of Adrian Martin Barcelo, a web developer specializing in creating high-performing, user-centric web applications using modern technologies like React and TypeScript.",
     url: "https://your-portfolio-url.com",
     type: "website",
     images: [
