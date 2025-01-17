@@ -40,6 +40,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  const facebookAppId = '616839594047355'; 
+
   return (
     <html lang="en">
       <head>
@@ -55,6 +58,7 @@ export default function RootLayout({
         <meta property="og:url" content={metadata.openGraph?.url?.toString() ?? ""} />
         <meta property="og:type" content={metadata.openGraph?.type ?? ""} />
         <meta property="og:image" content={metadata.openGraph?.images?.[0]?.url ?? ""} />
+        <meta property="fb:app_id" content={facebookAppId} />
         {metadata.openGraph && Object.entries(metadata.openGraph).map(([key, value]) => (
           typeof value === 'string' || typeof value === 'number' ? // Comprobación para evitar errores con arrays
             <meta property={`og:${key}`} content={value} key={`og:${key}`} /> : null
