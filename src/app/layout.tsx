@@ -15,7 +15,7 @@ export const metadata = {
   keywords: "Adrian Martin Barcelo, frontend developer, React, TypeScript, UI/UX design, portfolio, web development, JavaScript, Tailwind CSS, Docker",
   authors: [{ name: "Adrián Martín Barceló" }],
   openGraph: {
-    title: "Adrián Martín Barceló | Frontend Web Developer | React & TypeScript",
+    title: "Adrián Martín Barceló | Frontend Web Developer | React - Next & TypeScript",
     description: "Portfolio of Adrián Martín Barceló, a web developer specializing in creating high-performing, user-centric web applications using React, TypeScript, and Next.js.",
     url: "https://admartinbarcelo.com/",
     type: "website",
