@@ -10,21 +10,21 @@ const calistoga = Calistoga({
 });
 
 export const metadata = {
-  title: "Adrian Martin Barcelo | Web Developer Specializing in Frontend & User Experiences",
-  description: "Explore the portfolio of Adrian Martin Barcelo, a web developer specializing in creating high-performing, user-centric web applications using modern technologies like React and TypeScript.",
+  title: "Adrián Martín Barceló | Frontend Web Developer | React & TypeScript",
+  description: "Portfolio of Adrián Martín Barceló, a web developer specializing in creating high-performing, user-centric web applications using React, TypeScript, and Next.js.",
   keywords: "Adrian Martin Barcelo, frontend developer, React, TypeScript, UI/UX design, portfolio, web development, JavaScript, Tailwind CSS, Docker",
-  authors: [{ name: "Adrian Martin Barcelo" }],
+  authors: [{ name: "Adrián Martín Barceló" }],
   openGraph: {
-    title: "Adrian Martin Barcelo | Web Developer Specializing in Frontend & User Experiences",
-    description: "Explore the portfolio of Adrian Martin Barcelo, a web developer specializing in creating high-performing, user-centric web applications using modern technologies like React and TypeScript.",
-    url: "https://your-portfolio-url.com",
+    title: "Adrián Martín Barceló | Frontend Web Developer | React & TypeScript",
+    description: "Portfolio of Adrián Martín Barceló, a web developer specializing in creating high-performing, user-centric web applications using React, TypeScript, and Next.js.",
+    url: "https://admartinbarcelo.com/",
     type: "website",
     images: [
       {
-        url: "https://your-portfolio-url.com/og-image.jpg",
-        width: 800,
-        height: 600,
-        alt: "Adrian Martin Barcelo - Frontend Web Developer Portfolio",
+        url: "https://admartinbarcelo.com/og-image.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Adrián Martín Barceló - Frontend Web Developer Portfolio",
       },
     ],
   },
@@ -44,6 +44,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <meta charSet="UTF-8" />
+        <title>{metadata.title}</title>
         <meta name="description" content={metadata.description ?? ""} />
         <meta name="keywords" content={metadata.keywords ?? ""} />
         <meta name="author" content={metadata.authors?.[0]?.name ?? ""} />
