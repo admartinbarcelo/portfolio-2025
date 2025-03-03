@@ -6,6 +6,8 @@ import FigmaIcon from "@/assets/icons/figma.svg";
 import tailwindIcon from "@/assets/icons/tailwind.svg";
 import GitHubIcon from "@/assets/icons/github.svg";
 import DockerIcon from "@/assets/icons/docker.svg";
+import MongoIcon from "@/assets/icons/mongodb.svg";
+import SqlIcon from "@/assets/icons/mysql.svg";
 import NextIcon from "@/assets/icons/next.svg";
 import mapImage from "@/assets/images/map-barcelona.webp";
 import smileMemoji from "@/assets/images/memoji-smile.png";
@@ -32,6 +34,14 @@ const toolBoxItems = [
   {
     title: "Docker",
     iconType: DockerIcon,
+  },
+  {
+    title: "MongoDB",
+    iconType: MongoIcon,
+  },
+  {
+    title: "MySQL",
+    iconType: SqlIcon,
   },
   {
     title: "GitHub",
