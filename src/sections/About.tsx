@@ -9,7 +9,7 @@ import DockerIcon from "@/assets/icons/docker.svg";
 import MongoIcon from "@/assets/icons/mongodb.svg";
 import SqlIcon from "@/assets/icons/mysql.svg";
 import NextIcon from "@/assets/icons/next.svg";
-import mapImage from "@/assets/images/map-barcelona.webp";
+import mapImage from "@/assets/images/map-barcelona.jpg";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
