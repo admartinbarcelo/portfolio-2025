@@ -26,40 +26,51 @@ const config: Config = {
         serif: "var(--font-serif)",
       },
       animation: {
-        'ping-large': 'ping-large 1s ease-in-out infinite',
-        'move-left': 'move-left 1s linear infinite',
-        'move-right': 'move-right 1s linear infinite',
-        'bounce-down': 'bounce-down 1s ease-in-out infinite',
+        "ping-large": "ping-large 1s ease-in-out infinite",
+        "move-left": "move-left 1s linear infinite",
+        "move-right": "move-right 1s linear infinite",
+        "bounce-down": "bounce-down 1s ease-in-out infinite",
+        "fade-in": 'fadeIn 0.8s ease-out forwards',
       },
       keyframes: {
-        'ping-large': {
+        "ping-large": {
           "75%, 100%": {
             transform: "scale(3)",
-            opacity: '0',
+            opacity: "0",
           },
         },
-        'move-left': {
-          '0%': {
-            transform: 'translateX(0%)',
+        "move-left": {
+          "0%": {
+            transform: "translateX(0%)",
           },
-          '100%': {
-            transform: 'translateX(-50%)',
-          },
-        },
-        'move-right': {
-          '0%': {
-            transform: 'translateX(-50%)',
-          },
-          '100%': {
-            transform: 'translateX(0%)',
+          "100%": {
+            transform: "translateX(-50%)",
           },
         },
-        'bounce-down': {
-          '0%, 100%': {
-            transform: 'translateY(-2px)',
+        "move-right": {
+          "0%": {
+            transform: "translateX(-50%)",
           },
-         '50%': {
-            transform: 'translateY(3px)',
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+        "bounce-down": {
+          "0%, 100%": {
+            transform: "translateY(-2px)",
+          },
+          "50%": {
+            transform: "translateY(3px)",
+          },
+        },
+        fadeIn: {
+          from: {
+            opacity: "0",
+            transform: "translateY(20px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
           },
         },
       },
