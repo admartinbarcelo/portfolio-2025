@@ -23,9 +23,8 @@ const portfolioProjects = [
       { title: "Developed internal and external modules" },
       { title: "Improved genomic data visualization and UX" },
     ],
-    link: "Private",
+    link: "https://qmatching.qgenomics.com/",
     image: Project6,
-    message: "This project is private and not accessible externally.",
   },
   {
     company: "Ironhack Spain",
