@@ -7,6 +7,7 @@ import Project3 from "@/assets/images/project-3.webp";
 import Project4 from "@/assets/images/project-4.webp";
 import Project5 from "@/assets/images/project-5.webp";
 import Project6 from "@/assets/images/project-6.webp";
+import Project7 from "@/assets/images/project-7.png"
 
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -14,9 +15,21 @@ import { Card } from "@/components/Card";
 import { useState } from "react";
 
 const portfolioProjects = [
+   {
+    company: "Allianz Technology",
+    year: "2023 - Present",
+    title: "Software Engineer",
+    results: [
+      { title: "Micro-frontend app with React & AngularJS (module federation)" },
+      { title: "Built and maintained a Backend-for-Frontend (BFF)" },
+      { title: "Adapted and improved UX across micro-frontend modules" },
+    ],
+    link: "https://www.allianz-trade.com/en_global.html",
+    image: Project7,
+  },
   {
     company: "QGENOMICS",
-    year: "2023 - Present",
+    year: "2023 - 2025",
     title: "Genomic Data Visualization",
     results: [
       { title: "Led the frontend migration from PHP to React" },
