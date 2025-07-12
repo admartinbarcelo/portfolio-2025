@@ -150,7 +150,7 @@ export const ProjectsSection = () => {
                     </ul>
                     {project.link === "Private" ? (
                       <span className="text-sm text-yellow-800">
-                        {project.message}
+                        {/* {project.message} */}
                       </span>
                     ) : (
                       <a
